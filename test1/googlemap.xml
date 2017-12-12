@@ -1,0 +1,19 @@
+POST https://maps.googleapis.com/maps/api/place/add/xml?key=AIzaSyAYtB_4efkH2I6awsrvWpUPnH2HPP7ZRYk
+
+content_copy
+ HTTP/1.1
+Host: maps.googleapis.com
+
+<PlaceAddRequest>
+  <location>
+    <lat>-33.8669710</lat>
+    <lng>151.1958750</lng>
+  </location>
+  <accuracy>50</accuracy>
+  <name>Google Shoes!</name>
+  <phone_number>(02) 9374 4000</phone_number>
+  <address>48 Pirrama Road, Pyrmont, NSW 2009, Australia</address>
+  <type>shoe_store</type>
+  <website>http://www.google.com.au/</website>
+  <language>en-AU</language>
+</PlaceAddRequest>
